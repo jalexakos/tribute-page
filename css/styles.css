@@ -1,0 +1,83 @@
+/* Setting the background color and font */
+
+body {
+    background-color: #f0f6ea;
+    font-family: "garamond", serif;
+}
+
+/* Aligning the heading */
+
+.heading {
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* Getting the size and centering right for the image section. */
+
+.image {
+    text-align: center;
+    margin: 0px auto;
+}
+
+#bio-pic {
+    height: 300px;
+    width: 300px;
+}
+
+#caption {
+    font-style: italic;
+    font-size: 90%;
+}
+
+/* Making the bullet point section a little cleaner. */
+
+.bullet-points {
+    text-align: center;
+    margin: 3px auto;
+    width: 80%;
+}
+
+/* Making the list heading more pronounced */
+
+#list-header {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+/* Formatting for the bullet points in the list */
+
+.list-item {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 110%;
+    list-style-type: lower-greek;
+}
+
+/* Formatting for the quote and quote source. */
+
+#quote {
+    font-size: 140%;
+    text-indent: 5%;
+    margin-bottom: 0;
+}
+
+#quote-source {
+    font-size: 120%;
+    opacity: 60%;
+    text-indent: 20%;
+    margin-top: 2px;
+}
+
+/* Formatting the more info line. */
+
+#more-info {
+    font-size: 105%;
+    text-indent: 8%;
+    margin-top: 30px;
+    color: darkslategrey;
+}
+
+hr {
+    opacity: 30%;
+}
